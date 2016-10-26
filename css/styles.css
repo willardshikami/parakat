@@ -52,6 +52,30 @@ table {
   ========================================
 */
 
+.logo-bar{
+    height: 130px;
+}
+
+.logo {
+    padding: 10px;
+    float: left;
+}
+
+.contacts{
+    float: none;
+
+}
+
+.contacts h2,
+.contacts h4{
+    display: inline-block;
+}
+
+.nav-bar {
+    
+}
+
+
 
 /*
   ========================================
