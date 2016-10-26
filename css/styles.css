@@ -1,0 +1,292 @@
+/*THIS IS A CSS RESET
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*HTML 5 reset for older browsers
+*/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  HEADER
+  ========================================
+*/
+
+
+/*
+  ========================================
+  GRID OF TWO CLEANING SECTION
+  ========================================
+*/
+
+
+.area_2_of_2 {
+	width: 100%;
+}
+
+.area_1_of_2 {
+	width: 49.2%;
+}
+
+/*
+  =====================================================
+  MEDIA QUERIES GO FULL WIDTH AT LESS THAN 480 PIXELS
+  =====================================================
+*/
+
+@media only screen and (max-width: 480px) {
+	.area_2_of_2 {
+		width: 100%; 
+	}
+	.area_1_of_2 {
+		width: 100%; 
+	}
+}
+
+/*
+  ============================================
+  GRID OF THREE WHY TO CHOOSE PARAKAT SECTION
+  ============================================
+*/
+
+	
+.area_3_of_3 {
+	width: 100%; 
+}
+
+.area_2_of_3 {
+	width: 66.13%; 
+}
+
+.area_1_of_3 {
+	width: 32.26%; 
+}
+
+
+/*
+  =====================================================
+  MEDIA QUERIES GO FULL WIDTH AT LESS THAN 480 PIXELS
+  =====================================================
+*/
+
+@media only screen and (max-width: 480px) {
+	.area_3_of_3 {
+		width: 100%; 
+	}
+	.area_2_of_3 {
+		width: 100%; 
+	}
+	.area_1_of_3 {
+		width: 100%;
+	}
+}
+
+/*
+  ========================================
+  GRID OF SEVEN OUR CLIENTS SECTION
+  ========================================
+*/
+
+
+.area_7_of_7 {
+	width: 100%;
+}
+
+.area_6_of_7 {
+	width: 85.48%;
+}
+
+.area_5_of_7 {
+  	width: 70.97%;
+}
+
+.area_4_of_7 {
+  	width: 56.45%;
+}
+
+.area_3_of_7 {
+  	width: 41.94%;
+}
+
+.area_2_of_7 {
+  	width: 27.42%;
+}
+
+.area_1_of_7 {
+  	width: 12.91%;
+}
+
+/*
+  ====================================================
+ MEDIA QUERIES GO FULL LENGTH AT LESS THAN 480 PIXELS
+  ====================================================
+*/
+
+@media only screen and (max-width: 480px) {
+	.area_7_of_7 {
+		width: 100%; 
+	}
+	.area_6_of_7 {
+		width: 100%; 
+	}
+	.area_5_of_7 {
+		width: 100%; 
+	}
+	.area_4_of_7 {
+		width: 100%; 
+	}
+	.area_3_of_7 {
+		width: 100%; 
+	}
+	.area_2_of_7 {
+		width: 100%; 
+	}
+	.area_1_of_7 {
+		width: 100%; 
+	}
+}
+
+/*
+  ========================================
+  GRID OF FOUR FOOTER SECTION
+  ========================================
+*/
+
+	
+.area_4_of_4 {
+	width: 100%; 
+}
+
+.area_3_of_4 {
+	width: 74.6%; 
+}
+
+.area_2_of_4 {
+	width: 49.2%; 
+}
+
+.area_1_of_4 {
+	width: 23.8%; 
+}
+
+/*
+  ====================================================
+ MEDIA QUERIES GO FULL WIDTH AT LESS THAN 480 PIXELS
+  ====================================================
+*/
+
+@media only screen and (max-width: 480px) {
+	.area_4_of_4 {
+		width: 100%; 
+	}
+	.area_3_of_4 {
+		width: 100%; 
+	}
+	.area_2_of_4 {
+		width: 100%; 
+	}
+	.area_1_of_4 {
+		width: 100%; 
+	}
+}
+
+/*
+  ========================================
+   STYLES FOR ALL GRIDS
+  ========================================
+*/
+
+
+/*
+  ========================================
+    SECTIONS
+  ========================================
+*/
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*
+  ========================================
+  GROUPS
+  ========================================
+*/
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*
+  ========================================
+  GRID COLUMN SETUP
+  ========================================
+*/
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
