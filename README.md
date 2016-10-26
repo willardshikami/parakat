@@ -1,2 +1,2 @@
-# parakat
+# parapet
 A cleaning service website
