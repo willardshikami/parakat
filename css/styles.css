@@ -52,8 +52,12 @@ table {
   ========================================
 */
 
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
 .logo-bar{
-    height: 130px;
+    height: 120px;
 }
 
 .logo {
@@ -61,9 +65,12 @@ table {
     float: left;
 }
 
+.logo img {
+    width: 80%
+}
+
 .contacts{
     float: none;
-
 }
 
 .contacts h2,
@@ -71,10 +78,138 @@ table {
     display: inline-block;
 }
 
-.nav-bar {
-    
+.contacts h2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 40px;
+    margin: 30px 40px 0 20px;
 }
 
+
+.nav-bar {
+    padding-left: 5px
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 13px;
+    border-left: 1px solid #4c4c4c
+}
+
+/*
+  ========================================
+  LANDING PAGE IMAGE SECTION
+  ========================================
+*/
+
+.mid-home{
+    background-image: url(../images/homepage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 560px;
+    padding: 90px 90px 0 40px;
+}
+
+.mid-home h1 {
+    font-size: 60px;
+    color: #fff;
+    padding-bottom: 30px;
+    line-height: 100px; 
+    font-weight: bolder;
+}
+
+.btn {
+    text-align: center;
+    background: #ffff00;
+    border: solid 0 #333;
+    border-radius: 30px;
+    color: #000;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+/*
+  ============================================
+  FEATURED SECTION
+  ============================================
+*/
+
+.featured img {
+    width: 80%;
+}
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*
+  ============================================
+  GRID OF FIVE FEATURED SECTION
+  ============================================
+*/
+	
+.area_5_of_5 {
+	width: 100%;
+}
+
+.area_4_of_5 {
+  	width: 79.68%; 
+}
+
+.area_3_of_5 {
+  	width: 59.36%; 
+}
+
+.area_2_of_5 {
+  	width: 39.04%;
+}
+
+.area_1_of_5 {
+  	width: 18.72%;
+}
+
+/*
+  ========================================
+  MEDIA QUERIES GO FULL WIDTH AT LESS THAN 480 PIXELS
+  ========================================
+*/
+
+@media only screen and (max-width: 480px) {
+	.area_5_of_5 {
+		width: 100%; 
+	}
+	.area_4_of_5 {
+		width: 100%; 
+	}
+	.area_3_of_5 {
+		width: 100%; 
+	}
+	.area_2_of_5 {
+		width: 100%; 
+	}
+	.area_1_of_5 {
+		width: 100%; 
+	}
+}
 
 
 /*
