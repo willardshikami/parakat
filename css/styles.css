@@ -140,24 +140,25 @@ nav ul li {
 */
 
 .featured img {
-    width: 80%;
+    width: 100%;
 }
 
-.section {
+.segment {
 	clear: both;
 	padding: 0px;
-	margin: 0px;
+	margin-right: 250px;
+    margin-left: 250px
 }
 
-.group:before,
-.group:after {
+.part:before,
+.part:after {
     content:"";
     display:table;
 }
-.group:after {
+.part:after {
     clear:both;
 }
-.group {
+.part {
     zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 
@@ -210,6 +211,54 @@ nav ul li {
 		width: 100%; 
 	}
 }
+
+/*
+  ============================================
+  CLEANING SECTION
+  ============================================
+*/
+
+.cleaning {
+    background: #d1d1d2;
+    padding: 30px;
+}
+
+.clean-margin {
+    margin-left: 200px;
+    margin-right: 200px
+}
+
+.cleaning h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.domestic{
+    background-image: url(../images/domestic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.domestic h3,
+.commercial h3{
+    font-size: 20px
+}
+
+.commercial{
+    background-image: url(../images/commercial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+
+/*
+  ========================================
+  CHOOSE US SECTION
+  ========================================
+*/
+
 
 
 /*
