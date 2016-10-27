@@ -94,7 +94,7 @@ body {
     color: #333;
 }
 
-nav ul li {
+.nav-bar nav ul li {
     display: inline-block;
     font-size: 20px;
     padding: 13px;
@@ -138,78 +138,14 @@ nav ul li {
   FEATURED SECTION
   ============================================
 */
-
-.featured img {
-    width: 100%;
-}
-
-.segment {
-	clear: both;
-	padding: 0px;
-	margin-right: 250px;
+.featured{
+    padding: 30px;
+    margin-right: 250px;
     margin-left: 250px
 }
 
-.part:before,
-.part:after {
-    content:"";
-    display:table;
-}
-.part:after {
-    clear:both;
-}
-.part {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
-}
-
-/*
-  ============================================
-  GRID OF FIVE FEATURED SECTION
-  ============================================
-*/
-	
-.area_5_of_5 {
-	width: 100%;
-}
-
-.area_4_of_5 {
-  	width: 79.68%; 
-}
-
-.area_3_of_5 {
-  	width: 59.36%; 
-}
-
-.area_2_of_5 {
-  	width: 39.04%;
-}
-
-.area_1_of_5 {
-  	width: 18.72%;
-}
-
-/*
-  ========================================
-  MEDIA QUERIES GO FULL WIDTH AT LESS THAN 480 PIXELS
-  ========================================
-*/
-
-@media only screen and (max-width: 480px) {
-	.area_5_of_5 {
-		width: 100%; 
-	}
-	.area_4_of_5 {
-		width: 100%; 
-	}
-	.area_3_of_5 {
-		width: 100%; 
-	}
-	.area_2_of_5 {
-		width: 100%; 
-	}
-	.area_1_of_5 {
-		width: 100%; 
-	}
+.featured img {
+    width: 100%;
 }
 
 /*
@@ -221,35 +157,48 @@ nav ul li {
 .cleaning {
     background: #f2f2f2;
     padding: 30px;
+    padding: 50px 200px 50px 200px;
 }
 
-.clean-margin {
-    margin-left: 200px;
-    margin-right: 200px
-}
 
 .cleaning h2 {
     font-size: 23px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .domestic{
+    text-align: center;
     background-image: url(../images/domestic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 300px;
 }
 
 .domestic h3,
 .commercial h3{
-    font-size: 20px
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 50px  0 180px 0;
 }
 
 .commercial{
+    text-align: center;
     background-image: url(../images/commercial.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 300px;
+}
+
+.clean-btn {
+    text-align: center;
+    background: #ffff00;
+    border: solid 0 #333;
+    border-radius: 30px;
+    color: #000;
+    padding: 12px 15px;
+    text-decoration: none;
 }
 
 
@@ -622,8 +571,13 @@ ul li {
 
 .blog{
     background: #f2f2f2;
-    padding: 50px 200px 50px 200px;
+    padding: 60px 200px 60px 200px;
     text-align: center;
+}
+
+
+.blogs {
+    margin: 0;
 }
 
 .blog h2 {
@@ -633,23 +587,25 @@ ul li {
 }
 
 .blog img {
+    margin: 0;
     width: 100%;
+    background: #fff;
 }
 
 .blog1, 
 .blog2,
 .blog3 {
     background: #fff;
-    line-height: 30px;
-    padding-bottom: 50px;
-    text-align: justify;
+}
+
+.blog-text {
+    
 }
 
 .blog1 h3,
 .blog2 h3,
 .blog3 h3{
     font-size: 18px;
-    margin-bottom: 13px;
     padding: 10px;
 }
 
@@ -657,8 +613,62 @@ ul li {
 .blog2 p,
 .blog3 p {
     font-size: 15px;
-    padding: 10px
+
+    margin-bottom: 70px;
+    line-height: 30px
+        
 }
+
+.post-btn {
+    border: solid 2px #ffff00; 
+    background: #ffff00;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+/*
+  ========================================
+  FOOTER SECTION
+  ========================================
+*/ 
+
+.footer {
+    background: dodgerblue;
+    padding: 20px 200px 20px 200px;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #fff;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.footer p {
+    color: #fff;
+    line-height: normal;
+}
+
+.copyright {
+    float: left;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+.footer ul li {
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+
+
 
 /*
   ========================================
