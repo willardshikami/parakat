@@ -229,7 +229,7 @@ nav ul li {
 }
 
 .cleaning h2 {
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
 }
 
@@ -251,13 +251,6 @@ nav ul li {
     background-repeat: no-repeat;
     height: 400px;
 }
-
-
-/*
-  ========================================
-  CHOOSE US SECTION
-  ========================================
-*/
 
 
 
@@ -290,6 +283,50 @@ nav ul li {
 		width: 100%; 
 	}
 }
+
+
+/*
+  ========================================
+  CHOOSE US SECTION
+  ========================================
+*/ 
+
+.choose-us {
+    text-align: center;
+    padding: 50px 200px 50px 200px
+}
+
+.choose-us h2 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.choose-us img {
+    width: 25%;
+}
+
+.choose-us p {
+    line-height: 23px;
+}
+
+.choose-us .line-one{
+    padding-top: 30px;
+}
+
+.choose-us .line-two{
+    padding-bottom: 30px;
+}
+
+.choose-us .bttn{
+    color: dodgerblue;
+    text-decoration: none;
+    border: solid 2px dodgerblue;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+
 
 /*
   ============================================
